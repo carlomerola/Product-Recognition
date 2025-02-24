@@ -1,6 +1,6 @@
 # Product-Recognition
 
-### Assignment 1
+### object_detection_traditional
 This project implements an object recognition pipeline using traditional image processing techniques such as:
 * Image denoising, since original image are corrupted by Salt-and-Pepper noise and Gaussian noise non linear filtrs are used: Median Filter followed by a Bilateral Filter.
 * Feature extraction using SIFT (Scale-Invariant Feature Transform) for scaling and rotation invariance kepyoints and descriptors calculation.
@@ -8,6 +8,6 @@ This project implements an object recognition pipeline using traditional image p
 * Use of Template Matching for the cases where there are low keypoints descriptors matchings.
 
 
-### Assignment 2
+### object_detection_neural_network
 This project uses a scientific approach and ablaton studies to construct a neural network for object detection. The model has taken inspiration from VGG repetition of stages and Inception style Global Average Pooling Classifier head. In fact the spatial dimensions were averaged out before fed into the FC layer. BatchNorm had been also added to regularize the network and help convergence. Step by step, complexity to the model was added, and design choices were made, like the addition of skip connections.
 The same task is than tackled through Transfer Learning and Fine Tuning of a Resnet-18.
