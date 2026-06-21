@@ -1,0 +1,26 @@
+# Datasets (downloaded / cloned at runtime)
+GroceryStoreDataset/
+dataset/
+dataset.zip
+
+# Model weights & cached training histories
+weights/
+*.pth
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+#copy
+product_classification_cnn_copy.ipynb
